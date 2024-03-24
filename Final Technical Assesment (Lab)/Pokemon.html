@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <title>Pokemon</title>
+  <script type = "text/javascript" src = "./pokemon.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "pokemon.css" />
+</head>
+
+<div class="game">
+  <div class="opponent">
+    <div class="stats">
+      <div class="top">
+        <div class="pokeballs">
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+        </div>
+        <div id = "apHP" class="hp-count">100</div>
+      </div>
+      <span class="name">
+        Charmeleon
+      </span>
+      <span class="level">
+        45
+      </span>
+    </div>
+    <img class="pokemon" src="Charmeleon_BW.webp" alt ="A sprite of Charmeleon" />
+  </div>
+  <div class="player">
+    <div class="stats">
+      <div class="top">
+        <div class="pokeballs">
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+          <div class="pokeball"></div>
+        </div>
+        <div id = "myHP" class="hp-count">100</div>
+      </div>
+      <span class="name">
+        Pikachu
+      </span>
+      <span class="level">
+        29
+      </span>
+    </div>
+    <img class="pokemon" src="Pikachu_Back_BW.webp" alt="Pikachu back sprite" />
+  </div>
+</div>
+<div class="box">
+  <div id = "message" class="message">
+    What should Pikachu do?
+  </div>
+  <div class="actions">
+    <button onclick = "thunderBolt()">Thunder Bolt</button>
+    <button onclick = "spark()">Spark</button>
+    <button onclick = "electroBall()">Electro Ball</button>
+    <button onclick = "quickAttack()">Quick Attack</button>
+  </div>
+  <div class = "continue">
+    <button onclick = "compPokemon()">Continue</button>
+  </div>
+</div>
